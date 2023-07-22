@@ -1,0 +1,22 @@
+.dataTable {
+  .dataGrid {
+    background: white;
+    padding: 20px;
+    font-weight: 400 !important;
+  }
+
+  .MuiDataGrid-toolbarContainer {
+    flex-direction: row-reverse;
+  }
+
+  .MuiDataGrid-root .MuiDataGrid-cell:focus-within {
+    outline: none !important;
+  }
+
+  .Avatar-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,17 @@
+.big-Chart {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  h1 {
+    font-size: 2vw;
+    font-weight: 500;
+  }
+
+  .chart {
+    width: 100%;
+    height: 300px;
+  }
+}

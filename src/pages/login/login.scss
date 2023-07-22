@@ -1,0 +1,50 @@
+//COLOURS
+$main-bg: #1c222e;
+$soft-bg: #384257;
+$dark-bg: #222b3c;
+$main-color: white;
+$soft-color: #ddd;
+$dark-color: #2a3447;
+
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $main-bg;
+  color: $main-color;
+  .container {
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 50px;
+    background: $soft-bg;
+    gap: 20px;
+
+    button {
+      background-color: white;
+      width: 40%;
+      padding: 5px;
+      color: black;
+      outline: none;
+      border-radius: 0.25rem;
+    }
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+
+      input {
+        padding: 3px;
+        background: transparent;
+        border-bottom: white solid 1px;
+        outline: none;
+      }
+    }
+  }
+}
