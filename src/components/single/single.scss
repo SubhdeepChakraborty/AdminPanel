@@ -141,9 +141,9 @@ $xxl: 1400px;
           padding: 15px;
           background-color: #f45b6810;
 
-          // @include md {
-          //   min-width: 250px;
-          // }
+          @include md {
+            min-width: 250px;
+          }
 
           p {
             margin-bottom: 10px;
