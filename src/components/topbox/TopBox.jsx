@@ -71,7 +71,10 @@ const TopBox = () => {
               <LazyLoadImage
                 effect="blur"
                 threshold={100}
-                src={user.profilePic}
+                src={
+                  user.profilePic ||
+                  `https://static.vecteezy.com/system/resources/previews/008/442/086/original/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg`
+                }
                 alt="image"
               />
               <div className="userTexts">
