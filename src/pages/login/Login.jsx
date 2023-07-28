@@ -43,7 +43,6 @@ const Login = () => {
           </label>
           <input
             type="email"
-            placeholder="John@gmail.com"
             required
             autoFocus
             autoComplete="off"
@@ -57,7 +56,6 @@ const Login = () => {
           </label>
           <input
             type="password"
-            placeholder="...."
             required
             autoComplete="off"
             onChange={(e) => setPassword(e.target.value)}
